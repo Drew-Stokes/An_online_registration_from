@@ -212,6 +212,7 @@ input[placeholder] {
     width: 100%;
     text-align: center;
     align-self: center;
+    font-size: 2em;
   }
 
   .signUp-title {
