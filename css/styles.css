@@ -48,7 +48,7 @@ legend {
   background-color: rgb(45,57,69);
   color: white;
   padding: 1em 0;
-  
+  font-size: 1.5em;
   margin: 0;
   text-transform: uppercase;
   font-family: 'Libre';
@@ -101,6 +101,10 @@ legend {
   padding-left: .2em;
 }
 
+.label_textArea {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
 button {
   padding: 15px 39px 18px 15px;
   color: #fff;
