@@ -12,14 +12,14 @@
     <div id="container">
         <form>
             <h1 class="form-h1">The Code Review</h1>
-            <fieldset>
+            <div>
             <h3 class="signUp-title">Signup for our newsletter</h3>
             <p class="signUp-info">
                 Get the latest news on how your code is doing right your inbox
             </p>
             <hr class="hrTop-1">
             <hr class="hrTop-2">
-            </fieldset>
+            </div>
             <fieldset class="contact">
                 <legend><h1 class="contact-header">Contact Information</h1></legend>
                 <div class="form-box">
@@ -59,26 +59,34 @@
 
                 <div class="form-box">
                     <label for="zipcode">Zip Code</label><br>
-                    <input type="number" id="zipcode" name="user_zipcode">
+                    <input type="text" id="zipcode" name="user_zipcode">
                 </div>
         </fieldset>
             <hr class="hrBottom">
             
-            <fieldset class="newsletter">
-            <legend><h1>Newsletter</h1></legend>
+            <div class="lowerForm">
+            <h1>Newsletter</h1>
 
             
             <p class="newsletter_text">Select the news letter you would like to recieve</p>
+            <fieldset class="newsletter">
             <input type="checkbox" id="html-news" value="html_newsletter"
             name="newsletter_selection"><label for="html-news">HTML News</label><br>
             <input type="checkbox" id="css-news" value="css_newsletter" name="newsletter_selection"><label for="css-news">CSS News</label><br>
             <input type="checkbox" id="js_news" value="js_newsletter"
             name="news_selection"><label for="js_news">Javascript News</label>
-            
-            <p>Newsletter format</p>
+            </fieldset>
+
+            <p class="newsletter_text">Newsletter format</p>
+
+            <fieldset class="newsletter">
             <input type="radio" id="html_format" value="formated_html" name="radio"><label for="html_format">HTML</label><br>
             <input type="radio" id="plain_format" value="formated_plainText" name="radio"><label for="plain_format">Plain text</label>
+            </fieldset>
+            </div>
             <label class="label_textArea">Other topics you'd like to hear about</label>
+
+            <fieldset>
             <textarea id="comments" name="comments">
             
             </textarea><br>

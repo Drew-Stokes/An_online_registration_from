@@ -154,7 +154,8 @@ label {
   width: 40%;
 }
 
-.newsletter p {
+.newsletter p,
+.newsletter_text {
   color: rgb(45,57,69);
   font-size: 1.2em;
   width: 95%;
@@ -243,5 +244,16 @@ input[placeholder] {
     flex-shrink: 0;
   }
 
-  
+  legend h1 {
+    margin-right: 20px;
+  }
+
+  .lowerForm {
+    text-align: left;
+    margin-left: 1em;
+  }
+
+  .label_textArea {
+    margin-left: .5em;
+  }
 }
