@@ -54,6 +54,9 @@ legend {
   font-family: 'Libre';
 }
 
+h2 {
+  font-size: 2em;
+}
 .signUp-title {
   text-align: center;
   font-size: 2em;
