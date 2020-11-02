@@ -65,37 +65,41 @@
             <hr class="hrBottom">
             
             <div class="lowerForm">
-            <legend><h2>Newsletter</h2></legend>
+                <fieldset class="newsletter">
 
-            
-            <p class="newsletter_text">Select the news letter you would like to recieve</p>
-            <fieldset class="newsletter">
-            <input type="checkbox" id="html-news" value="html_newsletter"
-            name="newsletter_selection"><label for="html-news">HTML News</label><br>
-            <input type="checkbox" id="css-news" value="css_newsletter" name="newsletter_selection"><label for="css-news">CSS News</label><br>
-            <input type="checkbox" id="js_news" value="js_newsletter"
-            name="news_selection"><label for="js_news">Javascript News</label>
-            </fieldset>
+                    <legend><h2>Newsletter</h2></legend>
 
-            <p class="newsletter_text">Newsletter format</p>
+                    
+                    <p class="newsletter_text">Select the news letter you would like to recieve</p>
+                    
+                    <input type="checkbox" id="html-news" value="html_newsletter"
+                    name="newsletter_selection"><label for="html-news">HTML News</label><br>
+                    <input type="checkbox" id="css-news" value="css_newsletter" name="newsletter_selection"><label for="css-news">CSS News</label><br>
+                    <input type="checkbox" id="js_news" value="js_newsletter"
+                    name="news_selection"><label for="js_news">Javascript News</label>
+                    
 
-            <fieldset class="newsletter">
-            <input type="radio" id="html_format" value="formated_html" name="radio"><label for="html_format">HTML</label><br>
-            <input type="radio" id="plain_format" value="formated_plainText" name="radio"><label for="plain_format">Plain text</label>
-            </fieldset>
+                    <p class="newsletter_text">Newsletter format</p>
+
+                    
+                    <input type="radio" id="html_format" value="formated_html" name="radio"><label for="html_format">HTML</label><br>
+                    <input type="radio" id="plain_format" value="formated_plainText" name="radio"><label for="plain_format">Plain text</label>
+                    
+                    <label class="label_textArea" for="comments">Other topics you'd like to hear about</label>
+                    
+                    <textarea id="comments" name="comments">
+                    
+                    </textarea><br>
+                    
+                    <button type="submit">
+                        Sign Up
+                    </button>
+                    <p class="copyright">
+                        Copyright The Code Review
+                    </p>
+                
+                </fieldset>
             </div>
-            <label class="label_textArea">Other topics you'd like to hear about</label>
-            <fieldset>
-            <textarea id="comments" name="comments">
-            
-            </textarea><br>
-            </fieldset>
-            <button type="submit">
-                Sign Up
-            </button>
-            <p class="copyright">
-                Copyright The Code Review
-            </p>
         </form>
     </div>
 </body>

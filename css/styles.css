@@ -107,7 +107,17 @@ h2 {
 .label_textArea {
   margin-top: 20px;
   margin-bottom: 10px;
+  padding-right: 1em;
+  margin-left: -.5em;
+  color: rgb(45,57,69);
+  font-size: 1.2em;
+  width: 95%;
+  font-family: "Volkorn";
+  color: rgb(170, 175, 180);
+  
 }
+
+
 button {
   padding: 15px 39px 18px 15px;
   color: #fff;
@@ -118,8 +128,8 @@ button {
   width: 95%;
   border: none;
   font-family: "Volkorn";
-  margin-left: 10px;
   font-weight: 600;
+  margin-top: 10px;
 }
 
 .copyright {
@@ -170,7 +180,7 @@ label {
 }
 
 textarea {
-  width: 100%;
+  width: 95%;
   height: 150px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -253,10 +263,8 @@ input[placeholder] {
 
   .lowerForm {
     text-align: left;
-    margin-left: 1em;
+    
   }
 
-  .label_textArea {
-    margin-left: .5em;
-  }
+  
 }
